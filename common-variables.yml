@@ -18,7 +18,7 @@ variables:
 - name: location
   value: 'canadacentral'
 # List of region to replicate the image
-- name: location
+- name: replication_regions
   value: ['canadaeast']
 # Type of storage account for the image hosting
 - name: location
