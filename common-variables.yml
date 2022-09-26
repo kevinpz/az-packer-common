@@ -19,7 +19,7 @@ variables:
   value: 'canadacentral'
 # List of region to replicate the image
 - name: replication_regions
-  value: 'canadaeast'
+  value: ''
 # Type of storage account for the image hosting
 - name: img_stg_type
   value: Standard_LRS
