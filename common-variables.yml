@@ -33,5 +33,5 @@ variables:
 parameters:
 # List of region to replicate the image
 - name: replication_regions
-  type: array
+  type: object
   default: ['canadaeast']
