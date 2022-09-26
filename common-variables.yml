@@ -21,7 +21,7 @@ variables:
 - name: replication_regions
   value: 'canadaeast'
 # Type of storage account for the image hosting
-- name: location
+- name: img_stg_type
   value: Standard_LRS
 # Storage account to store the tfstate
 - name: stg_name
