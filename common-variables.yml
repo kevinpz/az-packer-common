@@ -17,6 +17,9 @@ variables:
 # Location of the resources
 - name: location
   value: 'canadacentral'
+# List of region to replicate the image
+- name: replication_regions
+  value: 'canadaeast'
 # Type of storage account for the image hosting
 - name: location
   value: Standard_LRS
@@ -29,9 +32,3 @@ variables:
 # Name of the container to store the tfstate
 - name: stg_container_name
   value: 'terraform'
-
-parameters:
-# List of region to replicate the image
-- name: replication_regions
-  type: object
-  default: ['canadaeast']
