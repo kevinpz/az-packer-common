@@ -2,8 +2,11 @@ variables:
 # Name of the service connection
 - name: sc_name
   value: 'sc-mg-coffeetimedev'
-# ID of the subscription
-- name: subscription_id
+# ID of the subscription for the tfstate
+- name: backend_subscription_id
+  value: 'b34b291e-89b2-4d63-9f9c-1ac3e8f43b4f'
+# ID of the subscription for the deployment
+- name: depl_subscription_id
   value: 'b34b291e-89b2-4d63-9f9c-1ac3e8f43b4f'
 # RG to create the image builder
 - name: rg_name
