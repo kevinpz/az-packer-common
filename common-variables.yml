@@ -38,10 +38,10 @@ variables:
 # Comment to get a public IP
 # Name of the RG to get a private IP
 - name: rg_vnet_name
-  value: 'terraform'
+  value: 'rg-network-mgmt'
 # Name of the vnet
 - name: vnet_name
-  value: 'terraform'
+  value: 'vnet-mgmt-cc'
 # Name of the subnet
 - name: subnet_name
-  value: 'terraform'
+  value: 'snet-packer'
