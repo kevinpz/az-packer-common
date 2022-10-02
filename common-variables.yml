@@ -20,6 +20,9 @@ variables:
 # List of region to replicate the image
 - name: replication_regions
   value: ''
+# Number of replica count for the image
+- name: replica_count
+  value: 1
 # Type of storage account for the image hosting
 - name: img_stg_type
   value: Standard_LRS
@@ -31,4 +34,14 @@ variables:
   value: 'rg-mgmt'
 # Name of the container to store the tfstate
 - name: stg_container_name
+  value: 'terraform'
+# Comment to get a public IP
+# Name of the RG to get a private IP
+- name: rg_vnet_name
+  value: 'terraform'
+# Name of the vnet
+- name: vnet_name
+  value: 'terraform'
+# Name of the subnet
+- name: subnet_name
   value: 'terraform'
