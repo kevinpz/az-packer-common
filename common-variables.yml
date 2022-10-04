@@ -45,3 +45,6 @@ variables:
 # Name of the subnet
 - name: subnet_name
   value: 'snet-packer'
+# Publisher for the image
+- name: dst_image_publisher
+  value: 'coffeetimedev'
