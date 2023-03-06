@@ -35,7 +35,6 @@ variables:
 # Name of the container to store the tfstate
 - name: stg_container_name
   value: 'terraform'
-# Comment to get a public IP
 # Name of the RG to get a private IP
 - name: rg_vnet_name
   value: 'rg-network-mgmt'
